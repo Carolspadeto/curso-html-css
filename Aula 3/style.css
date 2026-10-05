@@ -1,0 +1,68 @@
+* {
+  /* reset de css */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Para todo o html */
+html {
+}
+
+/* Lista não ordenada */
+ul {
+  list-style: none;
+}
+
+/* Ancora - link */
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3 {
+  font-family:
+    'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* famlia da fonte */
+  font-weight: 900; /* peso da fonte */
+  color: rgb(134, 104, 84); /* texto */
+}
+.hero {
+  /* Display - flax */
+  display: flex;
+  flex-direction: column; /* Direciona a coluna */
+  justify-content: center; /* alinha na horizontal */
+  align-items: center; /* alinha na vertical */
+  min-height: 150px
+
+  /* trabalhamos com fundo */
+  
+
+  background-color: rgb(224, 204, 182); /* cor de fundo */
+
+  height: 150px; /* tamanho */
+  width: 100%; /* largura */
+
+  margin-bottom: 5px;
+}
+
+/* padding-left: 15px; */
+/* padding-right: 15px; */
+/* padding-top: 15px; */
+/* padding-bottom: 15px; /* Espaçamento interno */
+/* margin-bottom: 5px; /* espaçamento externo */
+
+/* Titulo hero */
+.hero > h1 {
+  font-size: 22px; /* tamanho da font */
+  color: rgb(133, 79, 9);
+}
+
+/* paragrafo hero */
+.hero > p {
+  color: rgb(90, 51, 25);
+  font-size: 15px;
+}

@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+@font-face {
+  font-family: 'font-primaria';
+  src: url('Roboto/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+body {
+  font-family: 'font-primaria', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+  padding: 10px;
+  margin: 10px;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.texto-segundario {
+  background-color: bisque;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px dotted #3a2e208a;
+}
+
+.texto-segundario > p {
+  font-size: 16px;
+  color: #5c5042;
+  text-align: justify;
+  text-wrap: pretty;
+  hyphens: auto;
+}
+
+h1 {
+  text-align: left;
+  margin: 5px;
+  color: #3a2e20;
+}
+
+p {
+  margin: 5px;
+  padding-bottom: 5px;
+  color: #5c5042;
+  font-style: italic;
+}
+
+footer {
+  color: #5c504258;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* .texto-segundario span {
+  font-weight: bold;
+} */
