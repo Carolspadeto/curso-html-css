@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 233, 216);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(241, 205, 156);
+  border-radius: 10px;
+  border: 1px dotted #ee6464;
+  box-shadow: 0 4px 10px #2b2a2a;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.card-conteudo {
+  padding: 20px;
+}
+
+.card h2 {
+  font-size: 24px;
+}
+.card p {
+  color: #553215;
+  line-height: 1;
+}
+.card .preco {
+  color: #1c8119;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1c8119;
+  color: rgb(233, 250, 206);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card-imagem {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  display: block;
+  padding: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  body {
+    background-color: #d8a75d;
+  }
+  .card-conteudo h2 {
+    color: #c5b097;
+    font-size: 18px;
+  }
+  .card {
+    background-color: #c29135;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and(max-width:1024px) {
+  background-color:;
+}

@@ -1,0 +1,48 @@
+.tabela {
+  border: 1px solid #960944;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.tabela th,
+.tabela td {
+  border: 1px solid #96094473;
+  padding: 8px;
+}
+
+.cabecalho {
+  background-color: #e9b4ca;
+  color: #960944;
+}
+
+.grupo {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 10px;
+}
+.grupo > label {
+  margin-bottom: 5px;
+}
+
+#mensagem {
+  padding: 10px;
+  resize: none;
+  width: 100%;
+  height: 60px;
+  border: 1px solid #cccc;
+  border-radius: 10px;
+  color: #960944;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: all 0.2s ease-in;
+}
+#mensagem:focus {
+  outline: none;
+  border: 2px solid rgb(122, 4, 49);
+  box-shadow: 10 0 30px #0e050973;
+}
+
+#mensagem:hover {
+  background-color: antiquewhite;
+}

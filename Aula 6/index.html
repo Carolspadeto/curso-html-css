@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table | Lista | Textarea | Input</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header><h1>Aprendedo Sobre Fundamentos de Lista e Tabelas</h1></header>
+
+    <main>
+      <section>
+        <div class="lista-ordenada">
+          <h2>Lista ordenada</h2>
+          <ol type="A">
+            <li>Maçã</li>
+            <li>Morango</li>
+            <li>Banana</li>
+          </ol>
+        </div>
+
+        <div class="lista-nao-ordenada">
+          <h2>Lista não ordenada</h2>
+          <ul>
+            <li>Gato</li>
+            <li>Ovelha</li>
+            <li>Galinha</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Segunda sessão -->
+
+      <section>
+        <!-- Tabela -->
+        <table class="tabela">
+          <thead>
+            <!-- Informações -->
+            <tr class="cabecalho">
+              <th>id</th>
+              <th>Fruta</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+
+          <!-- Corpo | Conteúdo -->
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Maçã</td>
+              <td>R$ 10,00</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Morango</td>
+              <td>R$ 50,00</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>Banana</td>
+              <td>R$ 30,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <h2>Entre em contato e saiba mais</h2>
+      <div class="grupo">
+        <label for="mensagens"> Deixe sua mensagem! </label>
+        <textarea
+          placeholder="Digite sua mensagem"
+          name="mensagens"
+          id="mensagem"
+        ></textarea>
+      </div>
+    </main>
+  </body>
+
+  <!-- <footer>Todos os direitos reservados</footer> -->
+</html>

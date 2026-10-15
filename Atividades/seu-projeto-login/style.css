@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.login-card {
+  background-color: #e9eaeb;
+  color: rgb(87, 82, 82);
+  width: 100%;
+  max-width: 360px;
+  padding: 50px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px #d0d0d1;
+}
+.login-header h1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1b2742;
+  margin-bottom: 7px;
+}
+
+.login-header p {
+  font-size: 13px;
+  color: #292b30;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input-group label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #292b30;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 5px 12px;
+  font-size: 14px;
+  color: #1b2742;
+  background-color: #e1e1e2;
+  border: 1px solid #bdbec0;
+  border-radius: 6px;
+  outline: none;
+  transition:
+    border-color 0.2,
+    box-shadow 0.2s;
+}
+.input-group input::placeholder {
+  color: #9ca3af;
+}
+
+.senha-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.senha-group label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #292b30;
+}
+.senha-group input {
+  width: 100%;
+  padding: 5px 12px;
+  font-size: 14px;
+  color: #1b2742;
+  background-color: #e1e1e2;
+  border: 1px solid #bdbec0;
+  border-radius: 6px;
+  outline: none;
+  transition:
+    border-color 0.2,
+    box-shadow 0.2s;
+}
+
+.botao-entrar {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(43, 119, 206);
+  color: #e1e1e4;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.botao-entrar:hover {
+  background-color: #3a5599;
+}
+.login-footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.login-footer p {
+  font-size: 15px;
+  color: #292b30;
+}
+.login-footer a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #2053d3;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+  color: #2053d3;
+}
