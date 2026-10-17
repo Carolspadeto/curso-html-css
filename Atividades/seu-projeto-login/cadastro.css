@@ -1,0 +1,21 @@
+.form {
+  background-color: antiquewhite;
+  max-width: 300px;
+  border-radius: 6px;
+  padding: 12px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+label {
+  color: #5a4a4a;
+}
+button {
+  padding: 10px;
+  margin-top: 6px;
+  margin-left: 90px;
+}
